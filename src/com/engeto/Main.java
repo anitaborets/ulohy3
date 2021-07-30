@@ -16,15 +16,8 @@ public class Main{
         boolean leap;
         System.out.print("Enter the year:");
         int year = sc1.nextInt();
-<<<<<<< HEAD
-        if (Year.of(year).isLeap())
-            leap = true;
-        else
-            leap = false;
-        return leap;
-=======
+
         return Year.of(year).isLeap();
->>>>>>> 1620cb3 (Initial commit)
 
     }
     public static int[] getFibonnacci(){
